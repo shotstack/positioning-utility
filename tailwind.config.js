@@ -9,7 +9,7 @@ module.exports = {
           text: '#ffffff',
         },
         link: {
-          hover: '#21bcb9'
+          hover: '#21bcb9',
         },
       },
     },
@@ -17,8 +17,11 @@ module.exports = {
   variants: {
     extend: {},
   },
-  purge: [
-    './views/*.html',
-    './public/js/app.js',
-  ],
+  purge: {
+    enabled: true,
+    content: [
+      './views/*.html',
+      './public/js/app.js',
+    ],
+  },
 };
