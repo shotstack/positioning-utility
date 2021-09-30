@@ -1,5 +1,4 @@
 module.exports = {
-  darkMode: false,
   theme: {
     extend: {
       colors: {
@@ -20,8 +19,8 @@ module.exports = {
   purge: {
     enabled: true,
     content: [
-      './views/*.html',
-      './public/js/app.js',
+      '*.html',
+      'js/app.js',
     ],
   },
 };
