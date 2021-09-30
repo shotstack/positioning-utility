@@ -20,7 +20,7 @@ serve the HTML content.
 
 ### Static Build
 
-The build folder includes a static version of the positioning utility
+You can create a static build of the website. This is saved to a `build` folder.
 
 ## Installation
 
