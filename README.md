@@ -26,7 +26,6 @@ The build folder includes a static version of the positioning utility
 Install node module dependencies:
 
 ```bash
-cd src
 npm install
 
 ```
@@ -41,7 +40,6 @@ in `tailwind.config.js`.
 To start the utility, build the CSS and serve the utility:
 
 ```bash
-cd src
 npm start
 ```
 
@@ -49,5 +47,9 @@ Then visit [http://localhost:8080](http://localhost:8080)
 
 ## Deploy as static build
 
-The utility can be deployed as a static website by running `npm run build`. This builds your
-CSS file from Tailwind and copies the Javascript and HTML into the build directory.
+The utility can be deployed as a static website by. This builds your
+CSS file from Tailwind and copies the Javascript and HTML into the build directory:
+
+```bash
+npm run build
+```
