@@ -3,10 +3,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primary: '#25d3d0',
         button: {
-          primary: '#25d3d0',
           hover: '#21bcb9',
           text: '#ffffff',
+        },
+        link: {
+          hover: '#21bcb9'
         },
       },
     },
