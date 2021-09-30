@@ -78,13 +78,7 @@ var htmlEdit = {
   },
   output: {
     format: 'png',
-    resolution: 'sd',
-    destinations: [
-      {
-        provider: 'shotstack',
-        exclude: true,
-      },
-    ],
+    resolution: 'sd'
   },
 };
 
