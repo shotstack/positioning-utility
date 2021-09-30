@@ -1,13 +1,11 @@
-const express = require('express');
-const path = require('path');
+const http = require('http');
+const fs = require('fs');
 
-const app = express();
-const port = 8080;
+const index = fs.readFileSync('index.html');
 
-app.use(express.static('public'));
+http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/html' });
+  res.end(index);
+}).listen(8080);
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
-
-app.listen(port, () => {});
+console.log('Server running at http://localhost:8080');

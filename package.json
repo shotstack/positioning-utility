@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run tailwind:css && node index.js",
-    "tailwind:css": "node_modules/.bin/postcss public/styles/tailwind.css -o public/styles/style.css",
-    "build": "npm run tailwind:css && mkdir -p build && mkdir -p build/js && mkdir -p build/styles && cp index.html build/ && cp public/styles/style.css build/styles/ && cp public/js/app.js build/js/"
+    "tailwind:css": "node_modules/.bin/postcss styles/tailwind.css -o styles/style.css",
+    "build": "npm run tailwind:css && mkdir -p build && mkdir -p build/js && mkdir -p build/styles && cp index.html build/ && cp styles/style.css build/styles/ && cp js/app.js build/js/"
   },
   "author": "Derk Zomer",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
     "tailwindcss": "^2.2.16"
