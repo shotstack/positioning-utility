@@ -45,7 +45,7 @@ npm start
 
 Then visit [http://localhost:8080](http://localhost:8080)
 
-## Deploy as static build
+## Build
 
 The utility can be deployed as a static website by. This builds your
 CSS file from Tailwind and copies the Javascript and HTML into the build directory:
