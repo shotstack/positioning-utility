@@ -17,11 +17,11 @@ The project is divided in to a two components:
 
 The backend is an Express server which hosts the utility.
 
-#### Static Build
+### Static Build
 
 The build folder includes a static version of the positioning utility
 
-## :checkered_flag: Installation
+## Installation
 
 Install node module dependencies:
 
