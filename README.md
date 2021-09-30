@@ -15,7 +15,8 @@ The project is divided in to a two components:
 
 ### Backend Server
 
-The backend is an Express server which hosts the utility.
+The backend uses the [http-server](https://www.npmjs.com/package/http-server) module to
+serve the HTML content.
 
 ### Static Build
 
@@ -37,7 +38,7 @@ in `tailwind.config.js`.
 
 ## Run Locally
 
-To start the utility, build the CSS and serve the utility:
+To start the server, build the CSS and serve the utility:
 
 ```bash
 npm start

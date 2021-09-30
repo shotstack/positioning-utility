@@ -4,15 +4,14 @@
   "description": "Positioning utility for the Shotstack API",
   "main": "index.js",
   "scripts": {
-    "start": "npm run tailwind:css && node index.js",
+    "start": "npm run tailwind:css && ./node_modules/.bin/http-server",
     "tailwind:css": "postcss styles/tailwind.css -o styles/style.css",
     "build": "npm run tailwind:css && mkdir -p build && mkdir -p build/js && mkdir -p build/styles && cp index.html build/ && cp styles/style.css build/styles/ && cp js/app.js build/js/"
   },
   "author": "Derk Zomer",
   "license": "MIT",
   "dependencies": {
-    "fs": "0.0.1-security",
-    "http": "0.0.1-security",
+    "http-server": "^13.0.2",
     "tailwindcss": "^2.2.16"
   },
   "devDependencies": {
