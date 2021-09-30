@@ -12,6 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
     "tailwindcss": "^2.2.16"
   },
   "devDependencies": {
@@ -49,7 +51,8 @@
     "rules": {
       "no-var": 0,
       "no-undef": 0,
-      "max-len": 0
+      "max-len": 0,
+      "no-console": 0
     }
   },
   "eslintIgnore": [
