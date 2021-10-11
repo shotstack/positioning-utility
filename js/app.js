@@ -78,7 +78,7 @@ var htmlEdit = {
   },
   output: {
     format: 'png',
-    resolution: 'sd'
+    resolution: 'sd',
   },
 };
 
