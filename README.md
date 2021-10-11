@@ -7,7 +7,7 @@ providing you with the corresponding JSON to use with the Shotstack API.
 
 ## Requirements
 
-- Node 14.17.0+
+- Node 12.13.0+
 
 ## Project Structure
 
